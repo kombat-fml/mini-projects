@@ -10,7 +10,7 @@
   - добавление 0 для числовых форматов, например чч:мм:сс
 
 Repo: [current-time](current-time/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/current-time/)
 
 ---
@@ -18,16 +18,16 @@ Repo: [current-time](current-time/)
 * ### ToDo-лист — простой список дел в функциональном стиле. Используется localstorage для хранения списка дел
 
 Repo: [ToDo-ls](ToDo-ls/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/ToDo-ls/)
 
 ---
 
 * ### Смена цвета на случайный по клику на кнопку.
 
-Repo: [change-color](change-color/)
+Repo: [random-color](random-color/)
 
-[live preview](https://kombat-fml.github.io/mini-projects/change-color/)
+[live preview](https://kombat-fml.github.io/mini-projects/random-color/)
 
 ---
 
@@ -38,7 +38,7 @@ Repo: [change-color](change-color/)
   - используется localstorage для хранения расчетов калькулатора
 
 Repo: [calculator-budget](calculator-budget/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/calculator-budget/)
 
 ---
@@ -46,7 +46,7 @@ Repo: [calculator-budget](calculator-budget/)
 * ### Вывод пользовательского текста с задержкой — используется функция debounce для задержки отображения введенного пользователем значения
 
 Repo: [typing-text](typing-text/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/typing-text/)
 
 ---
@@ -54,7 +54,7 @@ Repo: [typing-text](typing-text/)
 * ### Простая анимация, которую можно запускать и приостанавливать, а также сбросить в начальное состояние.
 
 Repo: [simple-animation](simple-animation/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/simple-animation/)
 
 ---
@@ -67,7 +67,7 @@ Repo: [simple-animation](simple-animation/)
   - написана простая анимация удаления и перемещения дел между списками
 
 Repo: [ToDo-OOP](ToDo-OOP/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/ToDo-OOP/)
 
 ---
@@ -79,7 +79,7 @@ Repo: [ToDo-OOP](ToDo-OOP/)
   - используется внешнее api для получения текущего курса валют
 
 Repo: [currency-converter](currency-converter/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/currency-converter/)
 
 ---
@@ -91,7 +91,7 @@ Repo: [currency-converter](currency-converter/)
   - выбранный язык хранится в localStorage
 
 Repo: [countries](countries/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/countries/)
 
 ---
@@ -99,6 +99,6 @@ Repo: [countries](countries/)
 * ### Интерактивная доска
 
 Repo: [board-game](board-game/)
-  
+
 [live preview](https://kombat-fml.github.io/mini-projects/board-game/)
-  
+
