@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #select {
+            margin-bottom: 20px;
+        }
+
+        #start {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <select id="select">
+        <option value="usd-to-rub">Из USD в RUB</option>
+        <option value="eur-to-rub">Из EUR в RUB</option>
+        <option value="rub-to-usd">Из RUB в USD</option>
+        <option value="rub-to-eur">Из RUB в EUR</option>
+    </select>
+    <div>
+        <input id="input-from" type="text">
+        <span id="from">Доллар США (USD)</span>
+        <input id="input-to" type="text">
+        <span id="to">Российский Рубль (RUB)</span>
+    </div>
+    <button id="start" disabled>Конвертировать</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

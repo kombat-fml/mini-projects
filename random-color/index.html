@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random Color</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+      }
+      .container {
+        min-height: 300px;
+        height: 100vh;
+        background-color: #088655;
+        padding: 60px 30px;
+        text-align: center;
+        transition: background-color 0.2s ease;
+      }
+      #button {
+        background-color: #fff;
+        color: #088655;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 20px 40px;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        transition: color 0.2s ease;
+      }
+      #button:hover {
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="color">#088655</h1>
+      <button id="button" type="button">Change Color</button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

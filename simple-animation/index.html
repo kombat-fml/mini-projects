@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Input typing</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .block {
+        margin: 50px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+      }
+      .block::after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        top: 94px;
+        left: 94px;
+        background-color: blue;
+        border-radius: 50%;
+      }
+      .line {
+        content: '';
+        display: block;
+        width: 105px;
+        height: 2px;
+        background-color: red;
+        transform-origin: 1px 1px;
+        position: absolute;
+        left: 97px;
+        top: 97px;
+      }
+      button {
+        display: inline-block;
+        margin-left: 30px;
+        padding: 10px 20px;
+        min-width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <span class="line"></span>
+    </div>
+    <button class="start">Старт</button>
+    <button class="reset">Reset</button>
+    <script src="scripts.js"></script>
+  </body>
+</html>
